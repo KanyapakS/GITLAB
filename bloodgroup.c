@@ -2,14 +2,14 @@
 #include <string.h>
 void main()
 { char Name[40], G[5], answer[10];
-  int i;
+  int i, BB;
   do
   {
     printf("What's your Name? ");
     scanf("%s", Name);
     do
     {
-      printf("What is your blood group [A, B, AB, or O]? ");
+      printf("BB What is your blood group [A, B, AB, or O]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
